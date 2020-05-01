@@ -1,0 +1,34 @@
+#Ryder Nocks Baldwin
+#ryder.baldwin76@myhunter.cuny.edu 
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int month;
+  cout<< "Enter a number (as a number): ";
+  cin >> month;
+  
+  cout<< endl;
+ 
+  if (month <= 2 || month>11)
+  {
+    cout<< "Happy Winter" << endl;
+  }
+  else if (month >= 3 && month<7)
+  {
+    cout<< "Happy Spring" << endl;
+  }
+  else if (month >= 7 && month<9)
+  {
+    cout<< "Happy Summer" << endl;
+  }
+  else {
+    cout<< "Happy Fall"<< endl;
+  }
+  
+  return 0;
+
+}
+
